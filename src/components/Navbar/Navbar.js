@@ -5,7 +5,7 @@ import logo from '../../logo.png';
 export class Navbar extends Component {
     render() {
         return (
-            <nav className="navbar navbar-expand-sm bg-primary navbar-light px-sm-5">
+            <nav className="navbar navbar-expand-sm bg-transparent navbar-light px-sm-5 border-bottom">
                 <Link to="/">
                     <img src={logo} alt="React Store" className="navbar-brand"/>
                 </Link>

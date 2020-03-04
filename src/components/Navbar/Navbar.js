@@ -26,35 +26,6 @@ export class Navbar extends Component {
     }
 }
 
-/*
-//with styled-component installed
-const ButtonContainer = styled.button`
-text-transform: capitalize;
-font-size:1.4rem;
-background: transparent;
-border: 0.05rem solid;
-color: 
-cursos: pointer;
-margin: 0.2rem 0.5rem 0.2rem 0;
-transition:all 0.5s ease-in-out;
-//Hover
-&:hover{
-    background:;
-    color: ;
-}
-&:focus{
-    outline:none;
-}
-`;
 
-
-const NavWrapper = styled.nav`
-background: ;
-.nav-link{
-    color: white;
-    font-size: 1.3rem;
-    text-transform: capitalize;
-}
-`;*/
 
 export default Navbar;

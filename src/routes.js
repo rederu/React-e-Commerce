@@ -3,8 +3,8 @@ import { Switch, Route } from 'react-router-dom';
 
 //Impot the components
 import Cart from './components/Cart/Cart';
-import Details from './components/Details';
-import NotFound from './components/NotFound';
+import Details from './components/Details/Details';
+import NotFound from './components/NotFound/NotFound';
 import ProductList from './components/ProductList';
 
 const Routes = () => {

@@ -28,10 +28,10 @@ export class Details extends Component {
                                  <p className="text-muted-lead">{info}</p>
 
                                  <Link to ="/">
-                                     <button>Back to Store</button>
+                                     <button className="btn btn-outline-primary mr-2">Back to Store</button>
                                  </Link>
 
-                                <button 
+                                <button className="btn btn-outline-success ml-2"
                                     disabled = {inCart ? true: false}
                                     onClick={() => {
                                         value.addToCart(id);

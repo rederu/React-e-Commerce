@@ -24,10 +24,10 @@ export class Modal extends Component {
                                                     <img src={img} className="img-fluid" alt={title} />
                                                     <h6>The product {title} has been successfully added to your cart.</h6>
                                                     <Link to='/'>
-                                                        <button type="button" class="btn btn-secondary" onClick={() => closeModal()}>Store</button>
+                                                        <button type="button" class="btn btn-outline-primary mr-2" onClick={() => closeModal()}>Store</button>
                                                     </Link>
                                                     <Link to='/cart'>
-                                                        <button type="button" class="btn btn-secondary" onClick={() => closeModal()}>Go to Cart</button>
+                                                        <button type="button" class="btn btn-outline-danger ml-2" onClick={() => closeModal()}>Go to Cart</button>
                                                     </Link>
                                                 </div>
                                             </div>

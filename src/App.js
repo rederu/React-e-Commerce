@@ -1,13 +1,9 @@
 import React, { Fragment, Component } from 'react';
-//import {withRouter} from 'react-router-dom';
-import { BrowserRouter as Switch, Route } from 'react-router-dom';
+import {withRouter} from 'react-router-dom';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import Cart from './components/Cart/Cart';
-import Details from './components/Details';
-import NotFound from './components/NotFound';
-import ProductList from './components/ProductList';
-import Modal from './components/Modal'
+import Modal from './components/Modal';
+import Routes from './routes';
 
 //Import routes
 
@@ -17,18 +13,11 @@ class App extends Component {
     return (
       <Fragment>
           <Navbar />
-          <Switch>
-          <Route exact path="/" component={ProductList} />
-            <Route  path="/details" component={Details} />
-            <Route  path="/cart" component={Cart} />
-            
-            
-          </Switch>
+            <Routes/>
           <Modal/>
       </Fragment>
     );
   }
 }
 
-export default App;
-//<Route component={NotFound} />
+export default withRouter(App);

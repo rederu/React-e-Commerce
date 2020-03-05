@@ -7,7 +7,7 @@ export class Details extends Component {
         return (
             <ProductConsumer>
                 {value => {
-                 const {id, company,img, info, price, title, inCart} =  value.detailProduct;
+                 const {id, author,img, info, price, title, inCart} =  value.detailProduct;
                  //Product Information
                  return (
                      <div className="container py-5">
@@ -22,7 +22,7 @@ export class Details extends Component {
                              </div>
                              <div className="Col-10 mx-auto col-md-6 my-3 text-capitalize">
                                  <h2>Model: {title}</h2>
-                                 <h4 className="text-title text-uppercase text-muted mt-3 mb-2">Company: <span className="">{company}</span></h4>
+                                 <h4 className="text-title text-uppercase text-muted mt-3 mb-2">author: <span className="">{author}</span></h4>
                                  <h4><strong>Price: <span>$</span>{price}</strong></h4>
                                  <p className="font-weight-bold mt-3 mb-0">Product Information: </p>
                                  <p className="text-muted-lead">{info}</p>

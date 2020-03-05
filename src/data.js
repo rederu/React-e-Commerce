@@ -6,96 +6,96 @@ https://www.iconfinder.com/Makoto_msk */
 export const storeProducts = [
   {
     id: 1,
-    title: "Google Pixel - Black",
+    title: "Signs and Symbols",
     img: "img/product-1.png",
-    price: 10,
-    company: "GOOGLE",
+    price: 17,
+    author: "DK",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Discover the fascinating origins and meanings of over 2,000 signs and symbols from mythology and religion to astrology and ancient tribes in this comprehensive guide. For centuries, symbols have been imperative throughout the world, signifying ideas, relationships, and objects across different cultures. Find out why a flag at half mast is a symbol of mourning, why toads have got a bad name while frogs turn into princes, and why a heart pierced by an arrow is a classic symbol of love.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 2,
-    title: "Samsung S7",
+    title: "Myths and Legends",
     img: "img/product-2.png",
-    price: 16,
-    company: "SAMSUNG",
+    price: 23,
+    author: "Philip Wilkinson",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Explore global mythology with this comprehensive visual guide. Discover the world's greatest myths and legends - from Greek mythology to Norse mythology - in this comprehensive guide.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 3,
-    title: "HTC 10 - Black",
+    title: "Atlas of World History",
     img: "img/product-3.png",
-    price: 8,
-    company: "htc",
+    price: 27,
+    author: "Patrick O'Brien",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Oxford's Atlas of World History is the result of years of intensive work by a specialist team of scholars, editors, and cartographers. It presents the story of humanity in its physical setting, from the emergence of the earliest hominoids to the present day. Truly international in scope, the atlas incorporates the latest research into Asian, African, and Central and South American history, as well as the traditional core of North American and European events.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 4,
-    title: "HTC 10 - White",
+    title: "CCNA 200-301 Vol. 1",
     img: "img/product-4.png",
-    price: 18,
-    company: "htc",
+    price: 42,
+    author: "Wendell Odom",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "rust the best-selling Official Cert Guide series from Cisco Press to help you learn, prepare, and practice for exam success. They are built with the objective of providing assessment, review, and practice to help ensure you are fully prepared for your certification exam. This book, combined with the CCNA 200-301 Official Cert Guide Volume 2, cover all of exam topics on the CCNA 200-301 exam.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 5,
-    title: "HTC Desire 626s",
+    title: "Python Crash Course",
     img: "img/product-5.png",
     price: 24,
-    company: "htc",
+    author: "Eric Matthes",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Second edition of the best selling Python book in the world. A fast-paced, no-nonsense guide to programming in Python. This book teaches beginners the basics of programming in Python with a focus on real projects.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 6,
-    title: "Vintage Iphone",
+    title: "Nier: Automata",
     img: "img/product-6.png",
-    price: 17,
-    company: "apple",
+    price: 9,
+    author: "Jun Eishima, Yoko Taro",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "When alien forces invade with an army of Machines, the remnants of humanity must depend on Androids of their own design--the placid 2B and the excitable 9S--to survive.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 7,
-    title: "Iphone 7",
+    title: "The   Neverending   Story",
     img: "img/product-7.png",
-    price: 30,
-    company: "apple",
+    price: 7,
+    author: "Michael Ende",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "Read the book that inspired the classic coming-of-age film! From award-winning German author Michael Ende, The Neverending Story is a classic tale of one boy and the book that magically comes to life.",
     inCart: false,
     count: 0,
     total: 0
   },
   {
     id: 8,
-    title: "Smashed Iphone",
+    title: "React Explained",
     img: "img/product-8.png",
-    price: 2,
-    company: "apple",
+    price: 16,
+    author: "Zac Gordon",
     info:
-      "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+      "React Explained is a fun and enjoyable introduction to React, which is the Javascript framework of choice for WordPress, Drupal, Magento, and thousands of developers.",
     inCart: false,
     count: 0,
     total: 0
@@ -104,12 +104,12 @@ export const storeProducts = [
 
 export const detailProduct = {
   id: 1,
-  title: "Google Pixel - Black",
+  title: "Signs and Symbols",
   img: "img/product-1.png",
-  price: 10,
-  company: "google",
+  price: 17,
+  author: "DK",
   info:
-    "Lorem ipsum dolor amet offal butcher quinoa sustainable gastropub, echo park actually green juice sriracha paleo. Brooklyn sriracha semiotics, DIY coloring book mixtape craft beer sartorial hella blue bottle. Tote bag wolf authentic try-hard put a bird on it mumblecore. Unicorn lumbersexual master cleanse blog hella VHS, vaporware sartorial church-key cardigan single-origin coffee lo-fi organic asymmetrical. Taxidermy semiotics celiac stumptown scenester normcore, ethical helvetica photo booth gentrify.",
+    "Discover the fascinating origins and meanings of over 2,000 signs and symbols from mythology and religion to astrology and ancient tribes in this comprehensive guide. For centuries, symbols have been imperative throughout the world, signifying ideas, relationships, and objects across different cultures. Find out why a flag at half mast is a symbol of mourning, why toads have got a bad name while frogs turn into princes, and why a heart pierced by an arrow is a classic symbol of love.",
   inCart: false,
   count: 0,
   total: 0
